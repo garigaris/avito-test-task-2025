@@ -1,0 +1,46 @@
+.paginationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.paginationButtons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:disabled {
+  background-color: #d6e4ff;
+  border-color: #d6e4ff;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.pageInfo {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.totalItems {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}

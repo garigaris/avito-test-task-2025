@@ -1,0 +1,153 @@
+/* ------------------ Переменные темы ------------------ */
+
+/* Светлая тема по умолчанию */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --link-color: black;
+  --primary-color: #1e90ff;
+  --secondary-color: #f0f0f0;
+  --button-bg: var(--primary-color);
+  --button-text: #ffffff;
+}
+
+/* Темная тема */
+body.dark {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --link-color: #ffffff;
+  --primary-color: #4f9fff;
+  --secondary-color: #2a2a2a;
+  --button-bg: var(--primary-color);
+  --button-text: #ffffff;
+}
+
+/* ------------------ Сброс стилей ------------------ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+:root {
+  --bg-color: #f9fafb;
+  --bg-secondary: #ffffff;
+  --border-color: #e5e7eb;
+  --text-color: #111827;
+  --text-secondary: #374151;
+  --primary-color: #3b82f6;
+  --primary-soft: #dbeafe;
+  --input-bg: #ffffff;
+  --input-border: #d1d5db;
+  --button-reset-bg: #e5e7eb;
+  --button-reset-text: #374151;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1f2937;
+  --bg-secondary: #111827;
+  --border-color: #374151;
+  --text-color: #f3f4f6;
+  --text-secondary: #d1d5db;
+  --primary-color: #3b82f6;
+  --primary-soft: rgba(59,130,246,0.25);
+  --input-bg: #1f2937;
+  --input-border: #4b5563;
+  --button-reset-bg: #374151;
+  --button-reset-text: #e5e7eb;
+}
+
+
+:root {
+  --bg-card: #ffffff;
+  --bg-card-hover: #ffffff;
+  --bg-image: #f8f9fa;
+  --bg-placeholder: #e9ecef;
+
+  --text-primary: #2c3e50;
+  --text-secondary: #495057;
+  --text-muted: #6c757d;
+
+  --border-color: #e1e5e9;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --shadow-hover: rgba(0, 0, 0, 0.12);
+
+  --price-color: #000000;
+
+  --btn-outline: #007bff;
+  --btn-outline-text: #007bff;
+
+  --status-approved-bg: #d4edda;
+  --status-approved-text: #155724;
+
+  --status-rejected-bg: #f8d7da;
+  --status-rejected-text: #721c24;
+
+  --status-pending-bg: #fff3cd;
+  --status-pending-text: #856404;
+}
+
+[data-theme="dark"] {
+  --bg-card: #1f2937;
+  --bg-card-hover: #232f3f;
+  --bg-window: #767474;
+  --bg-image: #2b3441;
+  --bg-placeholder: #3b4450;
+
+  --text-primary: #e2e8f0;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --border-color: #374151;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --shadow-hover: rgba(0, 0, 0, 0.7);
+
+  --price-color: #ffffff;
+
+  --btn-outline: #3b82f6;
+  --btn-outline-text: #3b82f6;
+
+  --status-approved-bg: rgba(40, 167, 69, 0.15);
+  --status-approved-text: #50d07d;
+
+  --status-rejected-bg: rgba(220, 53, 69, 0.15);
+  --status-rejected-text: #ff8a93;
+
+  --status-pending-bg: rgba(255, 193, 7, 0.15);
+  --status-pending-text: #ffd666;
+}

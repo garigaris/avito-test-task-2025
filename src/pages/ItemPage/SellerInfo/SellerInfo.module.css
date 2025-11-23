@@ -1,0 +1,63 @@
+.sellerInfo {
+    margin-bottom: 24px;
+}
+
+.sectionTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #000;
+}
+
+.sellerHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.sellerAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sellerName {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.sellerStats {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sellerStat {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.sellerStat:last-child {
+    border-bottom: none;
+}
+
+.statLabel {
+    color: #666;
+    font-size: 14px;
+}
+
+.statValue {
+    font-weight: 500;
+    color: #000;
+}

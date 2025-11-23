@@ -1,0 +1,9 @@
+.AdsListContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
